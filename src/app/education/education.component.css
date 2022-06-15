@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+h2{
+  padding: 10px;
+  text-align: center;
+  color: #fd4766;
+}
+.column {
+  float: left;
+  width: 290px;
+  padding: 0 10px;
+  margin-bottom: 80px;
+}
+
+.row {
+  margin-top: 50px;
+  margin-left: 400px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.card1, .card2{
+  height: 270px;
+  text-align: justify;
+  transition: 1s;
+  cursor: pointer;
+}
+.card1{
+  color: transparent;
+  background-image: url("https://www.kaiciid.org/sites/default/files/styles/person_image/public/ssst_logo_0.jpg?itok=49tSaBM9");
+}
+.card2{
+  color: transparent;
+  background-image: url("https://www.marietta-city.org/cms/lib/GA01903590/Centricity/Shared/img/logos/IB-logo.gif");
+}
+
+.text{
+  padding: 10px;
+  font-size: 15px;
+}
+h3{
+  padding: 10px;
+  text-align: center;
+}
+
+.card1:hover{
+  width: 350px;
+  height: 300px;
+  transform: scale(1.1);
+  border: 5px solid #fd4766;
+  background-image: none;
+  color: #1d1d24;
+}
+.card2:hover{
+  width: 350px;
+  height: 300px;
+  transform: scale(1.1);
+  border: 5px solid #fd4766;
+  background-image: none;
+  color: #1d1d24;
+}
+
